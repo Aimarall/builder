@@ -1,10 +1,18 @@
-import Layout from './components/Layout/Layout';
+import Layout from "./components/Layout/Layout";
+import "./App.css";
+
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        Pizza Builder by master Aimaral
+        ball by master Begaiym Shaibekova<br/>
+        ball by master Begaiym Shaibekova<br/>
+        ball by master Begaiym Shaibekova<br/>
+        ball by master Begaiym Shaibekova<br/>
+        ball by master Begaiym Shaibekova<br/>
+        ball by master Begaiym Shaibekova<br/>
+        ball by master Begaiym Shaibekova<br/>
       </Layout>
     </div>
   );
