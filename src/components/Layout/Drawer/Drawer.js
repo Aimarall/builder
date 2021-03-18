@@ -3,7 +3,9 @@ import classes from "./Drawer.module.css";
 const Drawer = () => {
     return (
         <div className={classes.Drawer}>
-            Drawer
+            <div className={classes.content}>
+                Drawer
+            </div>
         </div>
     );
 }
