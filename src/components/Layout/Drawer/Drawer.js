@@ -24,23 +24,27 @@
 
 // export default Drawer;
 
-import React from "react";
-import classes from "./Drawer.module.css";
-import Logo from "../../UI/Logo/Logo";
-import Nav from "../../UI/Nav/Nav";
-import Backdrop from "../../UI/Backdrop/Backdrop";
 
-export default ({ toggleDrawer, open }) => {
-  const contentClasses = [classes.content];
-  contentClasses.push(open ? classes.Open : classes.Closed);
+import Logo from "../../Logo/Logo";
+import Nav from "../../Nav/Nav";
+import Backdrop from "../../UI/Backdrop/Backdrop";
+import classes from "./Drawer.module.css";
+
+const Drawer = ({ open, closeDrawer }) => {
+  const drawerClasses = [
+    classes.content,
+    open ? classes.open : classes.closed
+  ];
 
   return (
     <div className={classes.Drawer}>
-      <Backdrop hideCallback={toggleDrawer} show={open} />
-      <div className={contentClasses.join(" ")}>
+      <Backdrop show={open} click={closeDrawer} />
+      <div className={drawerClasses.join(" ")}>
         <Logo />
         <Nav />
       </div>
     </div>
   );
-};
+}
+ 
+export default Drawer;

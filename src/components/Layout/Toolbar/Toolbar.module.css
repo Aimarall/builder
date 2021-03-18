@@ -15,15 +15,13 @@
 .Toolbar {
     display: flex;
     justify-content: space-between;
-  
-    background-color: #EC6F31;
-  }
-  
-  .Toolbar nav {
-    display: none;
-  }
-  @media (min-width: 500px) {
-    .Toolbar nav {
-      display: block;
-    }
+    position: sticky;
+    top: 0;
+    left: 0;
+    
+    color: white;
+    background-color: rgb(16, 0, 163);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+    font-size: 2rem;
+    padding: 15px;
   }

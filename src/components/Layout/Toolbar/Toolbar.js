@@ -15,18 +15,20 @@
 
 // export default Toolbar;
 
-import React from "react";
-import classes from "./Toolbar.module.css";
-import Logo from "../../UI/Logo/Logo";
-import Nav from "../../UI/Nav/Nav";
-import DrawerToggle from "../Drawer/DrawerToggle/DrawerToggle";
 
-export default ({ toggleDrawer }) => (
-  <div className={classes.Toolbar}>
-    <Logo />
-    <nav>
+import Logo from "../../Logo/Logo";
+import Nav from "../../Nav/Nav";
+import DrawerOpen from "../Drawer/DrawerOpen/DrawerOpen";
+import classes from "./Toolbar.module.css";
+
+const Toolbar = ({ openDrawer }) => {
+  return (
+    <div className={classes.Toolbar}>
+      <Logo />
       <Nav />
-    </nav>
-    <DrawerToggle toggleDrawer={toggleDrawer} />
-  </div>
-);
+      <DrawerOpen click={openDrawer} />
+    </div>
+  );
+}
+ 
+export default Toolbar;
