@@ -26,6 +26,9 @@ function App() {
     <div className="App">
       <Layout>
         Pizza Builder by master Elaman Imashov<br />
+        Pizza Builder by master Elaman Imashov<br />
+        Pizza Builder by master Elaman Imashov<br />
+        Pizza Builder by master Elaman Imashov<br />
       </Layout>
     </div>
   );
