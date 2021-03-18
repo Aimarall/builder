@@ -1,4 +1,4 @@
-.Toolbar{
+/* .Toolbar{
     display: flex;
     justify-content: space-between;
 
@@ -10,4 +10,20 @@
     top: 0;
     left: 0;
     box-shadow: 0 0 10px rgba(0, 0, 0, 5);
-}
+} */
+
+.Toolbar {
+    display: flex;
+    justify-content: space-between;
+  
+    background-color: #EC6F31;
+  }
+  
+  .Toolbar nav {
+    display: none;
+  }
+  @media (min-width: 500px) {
+    .Toolbar nav {
+      display: block;
+    }
+  }
