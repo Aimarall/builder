@@ -1,5 +1,6 @@
 .CeilingPreview {
     width: 400px;
     height: 400px;
-    background-color: rgb(236, 211, 163);
+    border-radius: 100%;
+    background-color: rgb(180, 163, 240);
 }
