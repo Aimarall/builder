@@ -1,32 +1,19 @@
-// import Layout from "./components/Layout/Layout";
-// import "./App.css";
-
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Layout>
-//         ball by master Aimaral Jumaeva<br/>
-//         ball by master Aimaral Jumaeva<br/>
-//         ball by master Aimaral Jumaeva<br/>
-//         ball by master Aimaral Jumaeva<br/>
-//         ball by master Aimaral Jumaeva<br/>
-//       </Layout>
-//     </div>
-//   );
-// }
-
-// export default App;
 
 import Layout from "./components/Layout/Layout";
+import CeilingBuilder from "./components/CeilingBuilder/CeilingBuilder";
+// import Layout from "./components/Layout/CeilingControls/CeilingControls";
+// import Layout from "./components/Layout/CeilingPreview/CeilingPreview";
 import "./App.css"
 
 function App() {
   return (
     <div className="App">
+      
       <Layout>
+        <CeilingBuilder/>
+        {/* Ceiling Builder<br />
         Ceiling Preview<br />
-        Ceiling Controls<br />
+        Ceiling Controls<br /> */}
       </Layout>
     </div>
   );
