@@ -20,7 +20,7 @@ const Logo = () => {
   return (
     <div className={classes.Logo}>
       <img src={logo} alt="Pizza logo" />
-      <div>Pizza</div>
+      <div>Ceiling</div>
     </div>
   );
 }
