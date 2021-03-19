@@ -25,10 +25,8 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        Pizza Builder by master Elaman Imashov<br />
-        Pizza Builder by master Elaman Imashov<br />
-        Pizza Builder by master Elaman Imashov<br />
-        Pizza Builder by master Elaman Imashov<br />
+        Ceiling Preview<br />
+        Ceiling Controls<br />
       </Layout>
     </div>
   );

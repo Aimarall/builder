@@ -12,16 +12,26 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 5);
 } */
 
-.Toolbar {
+.Toolbar{
     display: flex;
     justify-content: space-between;
+
+    background-color: rgb(16, 0, 163);
+    font-size: 2rem;
+    color: white;
+    padding: 15px;
     position: sticky;
     top: 0;
     left: 0;
-    
     color: white;
-    background-color: rgb(16, 0, 163);
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-    font-size: 2rem;
-    padding: 15px;
+}
+
+    
+@media (max-width: 549px) {
+    .Toolbar {
+     padding: 0px;
+    }
   }
+
+  

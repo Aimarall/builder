@@ -42,6 +42,7 @@ const Drawer = ({ open, closeDrawer }) => {
       <div className={drawerClasses.join(" ")}>
         <Logo />
         <Nav />
+       
       </div>
     </div>
   );
