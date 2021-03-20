@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       
       <Layout>
-        <CeilingBuilder/>
+        <CeilingBuilder className="CeilingBuilder"/>
         
       </Layout>
     </div>

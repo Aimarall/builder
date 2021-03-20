@@ -1,0 +1,6 @@
+.CeilingBuilder {
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;;
+    flex-wrap: wrap;
+}
