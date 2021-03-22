@@ -7,3 +7,5 @@ const CeilingIngredient = ({ type }) => {
 }
 
 export default CeilingIngredient;
+
+

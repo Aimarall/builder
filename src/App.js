@@ -1,7 +1,8 @@
 
 import Layout from "./components/Layout/Layout";
 import CeilingBuilder from "./components/CeilingBuilder/CeilingBuilder";
-import "./App.css"
+import "./App.css";
+
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       
       <Layout>
         <CeilingBuilder className="CeilingBuilder"/>
+       
         
       </Layout>
     </div>
@@ -16,3 +18,4 @@ function App() {
 }
 
 export default App;
+
