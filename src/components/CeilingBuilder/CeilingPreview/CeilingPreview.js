@@ -23,6 +23,30 @@ export default CeilingPreview;
 
 
 
+// import PizzaIngredient from "../PizzaIngredient/PizzaIngredient";
+// import classes from "./PizzaPreview.module.css";
+// import ingredientsBackground from "../../../images/cheese.svg";
+
+// const PizzaPreview = ({ ingredients }) => {
+//   const result = [];
+//   for (const ingredient in ingredients) {
+//     for (let i = 0; i < ingredients[ingredient]; i++) {
+//       result.push(<PizzaIngredient type={ingredient} />)
+//     }
+//   }
+
+//   return (
+//     <div className={classes.PizzaPreview}>
+//       <div
+//         className={classes.ingredients}
+//         style={{ backgroundImage: `url(${ingredientsBackground})` }}>
+//         {result}
+//       </div>
+//     </div>
+//   );
+// }
+
+// export default PizzaPreview;
 
 
 
@@ -36,13 +60,5 @@ export default CeilingPreview;
 
 
 
-{/* <CeilingIngredient type="dowels" />
-        <CeilingIngredient type="screws" />
-        <CeilingIngredient type="nails" />
-        <CeilingIngredient type="bolts" />
-        <CeilingIngredient type="nuts" />
-        <CeilingIngredient type="rivets" />
-        <CeilingIngredient type="self-tapping screws" />
-        <CeilingIngredient type="growers" />
-        <CeilingIngredient type="anchors" />
-        <CeilingIngredient type="furniture axles" /> */}
+
+
