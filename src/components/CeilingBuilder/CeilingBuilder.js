@@ -4,9 +4,15 @@ import CeilingControls from "./CeilingControls/CeilingControls";
 import CeilingIngredient from "./CeilingIngredient/CeilingIngredient";
 
 const CeilingBuilder = () => {
+  const ingredients = {
+    dowels: 5,
+    screws: 6,
+    nails: 8,
+  };
+
   return (
     <div className={classes.CeilingBuilder}>
-      <CeilingPreview />
+      <CeilingPreview ingredients={ingredients}/>
       <CeilingControls />
       <CeilingIngredient />
     </div>

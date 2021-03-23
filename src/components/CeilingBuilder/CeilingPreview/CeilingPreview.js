@@ -1,31 +1,42 @@
-// import classes from "./CeilingPreview.module.css";
-
-
-// const CeilingPreview = () => {
-//   return (
-//     <div className={classes.CeilingPreview}>
-//       <div className={classes.sauce}>
-//         <CeilingIngredient type="tomato" />
-//         <CeilingIngredient type="salami" />
-//         <CeilingIngredient type="olive" />
-//         <CeilingIngredient type="mushroom" />
-
-//       </div>
-//     </div>
-
-//   );
-// }
-
-// export default CeilingPreview;
-
 import CeilingIngredient from "../CeilingIngredient/CeilingIngredient";
 import classes from "./CeilingPreview.module.css";
 
-const CeilingPreview = () => {
+const CeilingPreview = ({ ingredients }) => {
+  const result = [];
+  for (const ingredient in ingredients) {
+    for (let i = 0; i < ingredients[ingredient]; i++) {
+      result.push(<CeilingIngredient type={ingredient} />)
+    }
+  }
+
   return (
     <div className={classes.CeilingPreview}>
       <div className={classes.sauce}>
-        <CeilingIngredient type="dowels" />
+        {result}
+      </div>
+    </div>
+  );
+}
+
+export default CeilingPreview;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <CeilingIngredient type="dowels" />
         <CeilingIngredient type="screws" />
         <CeilingIngredient type="nails" />
         <CeilingIngredient type="bolts" />
@@ -34,11 +45,4 @@ const CeilingPreview = () => {
         <CeilingIngredient type="self-tapping screws" />
         <CeilingIngredient type="growers" />
         <CeilingIngredient type="anchors" />
-        <CeilingIngredient type="furniture axles" />
-      </div>
-
-    </div>
-  );
-}
-
-export default CeilingPreview;
+        <CeilingIngredient type="furniture axles" /> */}
