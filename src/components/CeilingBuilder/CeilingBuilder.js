@@ -12,7 +12,7 @@ const CeilingBuilder = () => {
 
   return (
     <div className={classes.CeilingBuilder}>
-      <CeilingPreview ingredients={ingredients}/>
+      <CeilingPreview ingredients={ingredients}/>fghj
       <CeilingControls />
       <CeilingIngredient />
     </div>
