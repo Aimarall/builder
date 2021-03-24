@@ -1,3 +1,7 @@
-.CeilingIngredient {
+/* .CeilingIngredient {
     font-size: 18px;
-}
+} */
+
+.CeilingIngredient {
+    position: absolute;
+  }

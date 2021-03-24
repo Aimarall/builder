@@ -1,8 +1,28 @@
-.CeilingPreview {
+/* .CeilingPreview {
     width: 350px;
     height: 500px;
     border-radius: 65%;
     margin-right: 15px;
     background-color: rgb(228, 210, 49);
     
-}
+} */
+
+
+.CeilingPreview {
+    flex: 0 0 400px;
+    height: 400px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 100%;
+    background-color: #fcc067;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ingredients {
+    width: 380px;
+    height: 380px;
+    border-radius: 100%;
+    position: relative;
+  }
