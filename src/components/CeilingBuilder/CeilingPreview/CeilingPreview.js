@@ -28,9 +28,12 @@
 
 
 
+
+
+
 import CeilingIngredient from "../CeilingIngredient/CeilingIngredient";
 import classes from "./CeilingPreview.module.css";
-import ingredientsBackground from "../../../images/logo2.svg";
+// import ingredientsBackground from "../../../images/logo2.svg";
 
 const CeilingPreview = ({ ingredients }) => {
   const result = [];
@@ -44,7 +47,8 @@ const CeilingPreview = ({ ingredients }) => {
     <div className={classes.CeilingPreview}>
       <div
         className={classes.ingredients}
-        style={{ backgroundImage: `url(${ingredientsBackground})` }}>
+        // style={{ backgroundImage: `url(${ingredientsBackground})` }}
+        >
         {result}
       </div>
     </div>

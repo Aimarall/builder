@@ -39,12 +39,16 @@ import CeilingIngredient from "./CeilingIngredient/CeilingIngredient";
 
 const CeilingBuilder = () => {
   const ingredients = {
-    tomato: 20,
-    salami: 20,
-    greenOlive: 20,
-    blackOlive: 20,
-    redPepper: 20,
-    yellowPepper: 15,
+    bolt: 2,
+    screw: 2,
+    washer: 2,
+    nail: 2,
+    nut: 2,
+    dowel: 1,
+    ssvvgg: 5,
+    ppnngg: 5,
+    jjppgg: 5,
+    aassdd: 5,
   };
 
   return (
