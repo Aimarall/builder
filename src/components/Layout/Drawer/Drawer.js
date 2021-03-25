@@ -1,6 +1,6 @@
-import Logo from "../../Logo/Logo";
+import Logo from "../../UI/Backdrop/Logo/Logo";
 import Nav from "../../Nav/Nav";
-import Backdrop from "../../UI/Backdrop/Backdrop";
+import Backdrop from "../../UI/Backdrop/Backdropp/Backdrop";
 import classes from "./Drawer.module.css";
 
 const Drawer = ({ open, closeDrawer }) => {
@@ -15,10 +15,10 @@ const Drawer = ({ open, closeDrawer }) => {
       <div className={drawerClasses.join(" ")}>
         <Logo />
         <Nav />
-       
+
       </div>
     </div>
   );
 }
- 
+
 export default Drawer;
