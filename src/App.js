@@ -1,4 +1,3 @@
-
 import Layout from "./components/Layout/Layout";
 import CeilingBuilder from "./components/CeilingBuilder/CeilingBuilder";
 import "./App.css";
@@ -9,9 +8,9 @@ function App() {
     <div className="App">
       
       <Layout>
-        <CeilingBuilder className="CeilingBuilder"/>
-       
         
+        <CeilingBuilder className="CeilingBuilder"/>
+      
       </Layout>
     </div>
   );
