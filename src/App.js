@@ -6,11 +6,11 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      
+
       <Layout>
-        
-        <CeilingBuilder className="CeilingBuilder"/>
-      
+
+        <CeilingBuilder className="CeilingBuilder" />
+
       </Layout>
     </div>
   );

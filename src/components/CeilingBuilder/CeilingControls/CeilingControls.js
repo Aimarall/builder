@@ -7,10 +7,10 @@ const CeilingControls = () => {
     <div className={classes.CeilingControls}>
       <div className={classes.sauce}>
         <CeilingIngredient type="Controls" />
-        
+
       </div>
     </div>
-    
+
   );
 }
 

@@ -15,8 +15,8 @@ const CeilingPreview = ({ ingredients }) => {
     <div className={classes.CeilingPreview}>
       <div
         className={classes.ingredients}
-        // style={{ backgroundImage: `url(${ingredientsBackground})` }}
-        >
+      // style={{ backgroundImage: `url(${ingredientsBackground})` }}
+      >
         {result}
       </div>
     </div>
