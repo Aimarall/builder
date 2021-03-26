@@ -1,4 +1,4 @@
-
+import React from "react";
 import classes from "./CeilingIngredient.module.css";
 
 import boltBackground from "../../../images/bolt.svg";
@@ -28,10 +28,6 @@ const CeilingIngredient = ({ type }) => {
     aassdd: { backgroundImage: `url(${aassddBackground})`, width: "40px", height: "40px" },
     ffgghh: { backgroundImage: `url(${ffgghhBackground})`, width: "40px", height: "40px" },
   };
-
-
-
-
 
 
 
@@ -69,17 +65,12 @@ const CeilingIngredient = ({ type }) => {
 
 
 
-
-
-
-
-
   return (
     <div className={classes.CeilingIngredient} style={types[type]}></div>
   );
 }
 
-export default CeilingIngredient;
+export default React.memo(CeilingIngredient);
 
 
 

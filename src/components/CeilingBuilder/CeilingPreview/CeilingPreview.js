@@ -1,4 +1,3 @@
-
 import CeilingIngredient from "../CeilingIngredient/CeilingIngredient";
 import classes from "./CeilingPreview.module.css";
 // import ingredientsBackground from "../../../images/logo2.svg";
@@ -7,7 +6,7 @@ const CeilingPreview = ({ ingredients }) => {
   const result = [];
   for (const ingredient in ingredients) {
     for (let i = 0; i < ingredients[ingredient]; i++) {
-      result.push(<CeilingIngredient type={ingredient} />)
+      result.push(<CeilingIngredient key={ingredient + i} type={ingredient} />)
     }
   }
 
