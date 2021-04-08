@@ -1,25 +1,31 @@
+
+// import classes from "./Nav.module.css";
+// import NavItem from "./NavItem/NavItem";
+
+// const Nav = () => {
+//   return (
+//     <div className={classes.Nav}>
+//       <NavItem url="/" active>Builder</NavItem>
+//       <NavItem url="/">Checkout</NavItem>
+//     </div>
+//   );
+// }
+
+// export default Nav;
+
 import classes from "./Nav.module.css";
+import NavItem from "./NavItem/NavItem";
 
 const Nav = () => {
   return (
-    <div className={classes.Nav}>
-      Fixing Builder
-      <div className={classes.Nav2}>
-        Authenticate
-      </div>
-    </div>
-
+    <ul className={classes.Nav}>
+      <NavItem url="/" active>Builder</NavItem>
+      <NavItem url="/">Checkout</NavItem>
+    </ul>
   );
 }
 
 export default Nav;
-
-
-
-
-
-
-
 
 
 

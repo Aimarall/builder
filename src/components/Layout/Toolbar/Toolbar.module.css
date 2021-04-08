@@ -1,37 +1,20 @@
-/* .Toolbar{
-    display: flex;
-    justify-content: space-between;
+.Toolbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 0 1rem;
+  z-index: 1;
 
-    background-color: rgb(0, 43, 161);
-    font-size: 20px;
-    color: white;
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
-} */
-
-.Toolbar{
-    display: flex;
-    justify-content: space-between;
-
-    background-color: rgb(54, 38, 196);
-    font-size: 2rem;
-    color: white;
-    padding: 15px;
-    position: sticky;
-    top: 0;
-    left: 0;
-    color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+  font-size: 2rem;
+  color: white;
+  background-color: tomato;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
-    
 @media (max-width: 549px) {
-    .Toolbar {
-     padding: 0px;
-    }
+  .Toolbar nav {
+    display: none;
   }
-
-  
+}
