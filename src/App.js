@@ -1,21 +1,17 @@
+
 import Layout from "./components/Layout/Layout";
-import CeilingBuilder from "./components/CeilingBuilder/CeilingBuilder";
+import FixingBuilder from "./components/FixingBuilder/FixingBuilder";
+
 import "./App.css";
 
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-
       <Layout>
-
-        <CeilingBuilder className="CeilingBuilder" />
-
+        <FixingBuilder />
       </Layout>
     </div>
   );
 }
 
-
 export default App;
-
