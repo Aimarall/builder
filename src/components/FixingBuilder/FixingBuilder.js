@@ -10,7 +10,6 @@ const FixingBuilder = () => {
   const prices = {
     screw1: 7,
     nail1: 1,
-    dowel1: 2,
     nut1: 3,
 
   };

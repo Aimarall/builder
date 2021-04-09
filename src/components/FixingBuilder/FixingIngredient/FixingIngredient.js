@@ -3,9 +3,7 @@ import React from "react";
 
 import classes from "./FixingIngredient.module.css";
 import screw1Background from "../../../images/screw1.svg";
-
 import nail1Background from "../../../images/nail1.svg";
-import dowel1Background from "../../../images/dowel1.png";
 import nut1Background from "../../../images/nut1.svg";
 
 const FixingIngredient = ({ type, fixed }) => {
@@ -13,7 +11,6 @@ const FixingIngredient = ({ type, fixed }) => {
     screw1: { backgroundImage: `url(${screw1Background})`, width: "50px", height: "41px" },
     nail1: { backgroundImage: `url(${nail1Background})`, width: "60px", height: "20px" },
     nut1: { backgroundImage: `url(${nut1Background})`, width: "37px", height: "40px" },
-    dowel1: { backgroundImage: `url(${dowel1Background})`, width: "30px", height: "30px" },
   };
 
   function getPosition(ingredientWidth) {
