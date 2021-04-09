@@ -20,7 +20,6 @@
 .ingredients {
   width: 380px;
   height: 380px;
-  border-radius: 100%;
   position: relative;
 }
 .price {
