@@ -57,7 +57,8 @@ const FixingPreview = ({ ingredients, price }) => {
   return (
     <div className={classes.FixingPreview}>
       <div className={classes.fixing}>  {/*  pizza */}
-        <div className={classes.ingredients}>
+        <div className={classes.ingredients}
+          >
           {result}
         </div>
       </div>
