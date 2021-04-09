@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:ns1="http://sozi.baierouge.fr"
+    xmlns:cc="http://creativecommons.org/ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+    id="svg10793"
+    sodipodi:docname="nail.svg"
+    inkscape:export-filename="/home/chaunce/Documents/runeman.org/clipart/nail.png"
+    viewBox="0 0 356.95 118.23"
+    inkscape:export-xdpi="90"
+    version="1.1"
+    inkscape:export-ydpi="90"
+    inkscape:version="0.48.4 r9939"
+  >
+  <title
+      id="title10845"
+    >Nail</title
+  >
+  <defs
+      id="defs10795"
+    >
+    <filter
+        id="filter10426"
+        width="1.396"
+        y="-.0061875"
+        x="-.198"
+        height="1.0124"
+        color-interpolation-filters="sRGB"
+        inkscape:collect="always"
+      >
+      <feGaussianBlur
+          id="feGaussianBlur10428"
+          stdDeviation="0.825"
+          inkscape:collect="always"
+      />
+    </filter
+    >
+    <filter
+        id="filter10444"
+        width="1.0494"
+        y="-.83858"
+        x="-.024707"
+        height="2.6772"
+        color-interpolation-filters="sRGB"
+        inkscape:collect="always"
+      >
+      <feGaussianBlur
+          id="feGaussianBlur10446"
+          stdDeviation="0.61767773"
+          inkscape:collect="always"
+      />
+    </filter
+    >
+  </defs
+  >
+  <sodipodi:namedview
+      id="base"
+      bordercolor="#666666"
+      inkscape:pageshadow="2"
+      inkscape:window-y="28"
+      fit-margin-left="0"
+      pagecolor="#ffffff"
+      fit-margin-top="0"
+      inkscape:window-maximized="1"
+      inkscape:zoom="1"
+      inkscape:window-x="-3"
+      inkscape:window-height="717"
+      showgrid="false"
+      borderopacity="1.0"
+      inkscape:current-layer="layer1"
+      inkscape:cx="207.48327"
+      inkscape:cy="5.5858895"
+      fit-margin-right="0"
+      fit-margin-bottom="0"
+      inkscape:window-width="1366"
+      inkscape:pageopacity="0.0"
+      inkscape:document-units="px"
+  />
+  <g
+      id="layer1"
+      inkscape:label="Layer 1"
+      inkscape:groupmode="layer"
+      transform="translate(-167.52 -419.72)"
+    >
+    <g
+        id="g10761"
+        transform="matrix(.22979 -.97324 .97324 .22979 -142.35 1034.4)"
+      >
+      <path
+          id="path10763"
+          style="stroke:#000000;stroke-width:1px;fill:#333333"
+          d="m470 16 20 4v320l10 20 10-20v-320l20-4v-14c-20-2.4316-40-2.2814-60 0v14z"
+          sodipodi:nodetypes="cccccccccc"
+          inkscape:connector-curvature="0"
+          transform="translate(141.8 172.49)"
+      />
+      <path
+          id="path10765"
+          style="stroke:#000000;stroke-width:1px;fill:#cccccc"
+          inkscape:connector-curvature="0"
+          d="m490 340h10v20z"
+          transform="translate(141.8 172.49)"
+      />
+      <path
+          id="path10767"
+          style="stroke:#000000;stroke-width:1px;fill:#f9f9f9"
+          inkscape:connector-curvature="0"
+          d="m500 340h10l-10 20z"
+          transform="translate(141.8 172.49)"
+      />
+      <path
+          id="path10769"
+          sodipodi:nodetypes="ccccc"
+          style="filter:url(#filter10426);fill:#ffffff"
+          inkscape:connector-curvature="0"
+          d="m649.8 192.49c-3.3333 1.3137-6.6667 2.2804-10 10v300c2.7186 9.481 6.3617 9.7167 10 10z"
+      />
+      <path
+          id="path10771"
+          style="filter:url(#filter10444);stroke:#ffffff;stroke-width:3;fill:none"
+          d="m470 5c20 2.3776 40 2.3363 60 0"
+          sodipodi:nodetypes="cc"
+          inkscape:connector-curvature="0"
+          transform="translate(141.8 172.49)"
+      />
+    </g
+    >
+  </g
+  >
+  <metadata
+    >
+    <rdf:RDF
+      >
+      <cc:Work
+        >
+        <dc:format
+          >image/svg+xml</dc:format
+        >
+        <dc:type
+            rdf:resource="http://purl.org/dc/dcmitype/StillImage"
+        />
+        <cc:license
+            rdf:resource="http://creativecommons.org/licenses/publicdomain/"
+        />
+        <dc:publisher
+          >
+          <cc:Agent
+              rdf:about="http://openclipart.org/"
+            >
+            <dc:title
+              >Openclipart</dc:title
+            >
+          </cc:Agent
+          >
+        </dc:publisher
+        >
+      </cc:Work
+      >
+      <cc:License
+          rdf:about="http://creativecommons.org/licenses/publicdomain/"
+        >
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Reproduction"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#Distribution"
+        />
+        <cc:permits
+            rdf:resource="http://creativecommons.org/ns#DerivativeWorks"
+        />
+      </cc:License
+      >
+    </rdf:RDF
+    >
+  </metadata
+  >
+</svg
+>
