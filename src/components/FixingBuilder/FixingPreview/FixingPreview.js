@@ -13,7 +13,7 @@
 //     result.push(<div>{example}</div>)
 //   }
 
-  
+
 //   return (
 //     <div className={classes.FixingPreview}>
 //       <div className={classes.fixing}>
@@ -44,7 +44,7 @@
 import FixingIngredient from "../FixingIngredient/FixingIngredient";
 
 import classes from "./FixingPreview.module.css";
-import ingredientsBackground from "../../../images/cheese.svg";
+// import ingredientsBackground from "../../../images/cheese.svg";
 
 const FixingPreview = ({ ingredients, price }) => {
   const result = [];
@@ -57,9 +57,7 @@ const FixingPreview = ({ ingredients, price }) => {
   return (
     <div className={classes.FixingPreview}>
       <div className={classes.fixing}>  {/*  pizza */}
-        <div
-          className={classes.ingredients}
-          style={{ backgroundImage: `url(${ingredientsBackground})` }}>
+        <div className={classes.ingredients}>
           {result}
         </div>
       </div>
@@ -69,3 +67,4 @@ const FixingPreview = ({ ingredients, price }) => {
 }
 
 export default FixingPreview;
+// style={{ backgroundImage: `url(${ingredientsBackground})` }}>
