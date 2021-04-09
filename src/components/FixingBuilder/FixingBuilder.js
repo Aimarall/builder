@@ -1,7 +1,6 @@
 
 import FixingPreview from "./FixingPreview/FixingPreview";
 import FixingControls from "./FixingControls/FixingControls";
-
 import classes from "./FixingBuilder.module.css";
 import { useEffect, useState } from "react";
 import axios from "axios";
