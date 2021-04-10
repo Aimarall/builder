@@ -10,7 +10,11 @@ const FixingBuilder = () => {
   const prices = {
     izmurud1: 80,
     zoloto2: 90,
-
+    silver2: 60,
+    bronze1: 50,
+    almaz1: 180,
+    rubin1: 130,
+    amber1: 140,
 
   };
   const [ingredients, setIngredients] = useState({});
