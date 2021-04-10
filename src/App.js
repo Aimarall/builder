@@ -8,6 +8,7 @@ const App = () => {
   return (
     <div className="App">
       <Layout>
+        <h1 className="Jewelry">Jewelry</h1>
         <FixingBuilder/>
       </Layout>
     </div>
