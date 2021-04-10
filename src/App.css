@@ -9,3 +9,9 @@ body {
   background-image: url(./images/fon1.jpg);
  
 }
+.Jewelry {
+  margin: 1rem;
+  text-align: center;
+  color: rgb(15, 104, 182);
+  font-size: 30px;
+}
