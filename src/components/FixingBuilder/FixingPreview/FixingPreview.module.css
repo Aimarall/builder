@@ -4,6 +4,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 1rem;
+
 }
 .fixing {
   width: 400px;
@@ -11,7 +12,7 @@
   margin-right: 1rem;
   margin-bottom: 1rem;
   border-radius: 1rem;
-  background-color: rgb(255, 152, 133);
+  /* background-color: rgb(255, 152, 133); */
 
   display: flex;
   justify-content: center;
@@ -19,7 +20,7 @@
 }
 .ingredients {
   width: 380px;
-  height: 380px;
+  height: 322px;
   position: relative;
 }
 .price {
