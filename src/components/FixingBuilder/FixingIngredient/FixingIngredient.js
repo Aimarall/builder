@@ -113,7 +113,7 @@ const FixingIngredient = ({ type, fixed }) => {
       ? {
         top: ingredientTop - ingredientRadius,
         left: ingredientLeft - ingredientRadius,
-        left: ingredientRight- ingredientRadius, //-
+        left: ingredientRight- ingredientRadius, 
 
       }
       : getPosition(ingredientWidth);
