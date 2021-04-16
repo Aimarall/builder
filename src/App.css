@@ -1,17 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap');
 
 * {
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Neuton', serif;
   box-sizing: border-box;
 }
 body {
   margin: 0;
-  background-image: url(./images/fon1.jpg);
- 
+  background-image: url(./images/fon5.jpg);
+  background-size: 100%;
+  /* filter: brightness(30%); */
+}
+#myimage {
+  filter: brightness(50%);
 }
 .Jewelry {
   margin: 1rem;
   text-align: center;
   color: rgb(15, 104, 182);
-  font-size: 30px;
+  font-size: 40px;
 }

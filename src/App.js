@@ -9,7 +9,7 @@ const App = () => {
     <div className="App">
       <Layout>
         <h1 className="Jewelry">Jewelry</h1>
-        <FixingBuilder/>
+        <FixingBuilder />
       </Layout>
     </div>
   );
