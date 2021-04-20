@@ -8,7 +8,7 @@ import Modal from "../UI/Modal/Modal";
 
 const FixingBuilder = () => {
   const prices = {
-    izmurud1: 80,
+   
     zoloto2: 90,
     silver2: 60,
     almaz1: 180,
