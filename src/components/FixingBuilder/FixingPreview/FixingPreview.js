@@ -44,7 +44,7 @@
 import FixingIngredient from "../FixingIngredient/FixingIngredient";
 
 import classes from "./FixingPreview.module.css";
-import ingredientsBackground from "../../../images/cheese.png";
+//import ingredientsBackground from "../../../images/cheese.png";
 
 const FixingPreview = ({ ingredients, price }) => {
   const result = [];
@@ -58,8 +58,9 @@ const FixingPreview = ({ ingredients, price }) => {
     <div className={classes.FixingPreview}>
       <div className={classes.fixing}>  {/*  fixing */}
         <div className={classes.ingredients}
-           style={{ backgroundImage: `url(${ingredientsBackground})` }} >
+        >
           {result}
+
         </div>
       </div>
       <div className={classes.price}>{price.toFixed(1)} som</div>
@@ -68,4 +69,4 @@ const FixingPreview = ({ ingredients, price }) => {
 }
 
 export default FixingPreview;
-// style={{ backgroundImage: `url(${ingredientsBackground})` }}>
+// style={{ backgroundImage: `url(${ingredientsBackground})` }} 
