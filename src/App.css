@@ -6,7 +6,7 @@
 }
 body {
   margin: 0;
-  /* background-image: url(./images/fon5.jpg); */
+  background-color:  #9c40b3; 
   background-size: 100%;
   /* filter: brightness(30%); */
 }
@@ -16,6 +16,6 @@ body {
 .Jewelry {
   margin: 1rem;
   text-align: center;
-  color: rgb(15, 104, 182);
-  font-size: 40px;
+  color:  #30d5c8;
+  font-size: 50px;
 }
