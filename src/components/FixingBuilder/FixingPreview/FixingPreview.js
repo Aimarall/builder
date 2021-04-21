@@ -63,7 +63,7 @@ const FixingPreview = ({ ingredients, price }) => {
 
         </div>
       </div>
-      <div className={classes.price}>{price.toFixed(1)} som</div>
+      <div className={classes.price}>{price.toFixed(1)} $</div>
     </div>
   );
 }
