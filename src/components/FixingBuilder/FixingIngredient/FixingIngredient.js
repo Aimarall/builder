@@ -75,19 +75,19 @@ const FixingIngredient = ({ type, fixed }) => {
     amber1: { backgroundImage: `url(${amber1Background})`, width: "50px", height: "50px" },
   };
   function getPosition(ingredientWidth) {
-    const pizzaDiameter = 380;
-    const pizzaRadius = pizzaDiameter / 2;
+    const fixingDiameter = 360;
+    const fixingRadius = fixingDiameter / 2;
     const ingredientRadius = parseInt(ingredientWidth) / 2;
 
-    const ingredientTop = Math.round(Math.random() * pizzaDiameter);
-    const ingredientLeft = Math.round(Math.random() * pizzaDiameter);
+    const ingredientTop = Math.round(Math.random() * fixingDiameter);
+    const ingredientLeft = Math.round(Math.random() * fixingDiameter);
 
 
     const distance = Math.sqrt(
-      Math.pow(ingredientTop - pizzaRadius, 2) + Math.pow(ingredientLeft - pizzaRadius, 1)
+      Math.pow(ingredientTop - fixingRadius, 2) + Math.pow(ingredientLeft - fixingRadius, 1)
     ) + ingredientRadius;
 
-    return distance < pizzaRadius
+    return distance < fixingRadius
       ? {
         top: ingredientTop - ingredientRadius,
         left: ingredientLeft - ingredientRadius
