@@ -7,7 +7,7 @@ const CheckoutSummary = ({ cancelCallback }) => {
   return (
     <div className={classes.CheckoutSummary}>
       <div>
-        <PizzaPreview ingredients={{
+        <FixingPrevew ingredients={{
           almaz1: 180,
           amber1: 140,
           izmurud1: 80,
