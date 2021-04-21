@@ -70,7 +70,11 @@ const FixingBuilder = () => {
         />
       <Modal
         show={ordering}
-        cancel={stopOrdering}>Hello</Modal>
+        cancel={stopOrdering}>
+          almaz
+          zoloto
+          serebro
+        </Modal>
     </div>
   );
 }
