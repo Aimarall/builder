@@ -10,7 +10,7 @@ body {
   /* background-color:  #9c40b3;  */
   background-size: 100%;
   /* filter: brightness(30%); */
-  background-color:  hsl(0, 12%, 92%); 
+  background-color:  hsl(0, 6%, 94%); 
 }
 #myimage {
   filter: brightness(50%);
