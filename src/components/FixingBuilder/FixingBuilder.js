@@ -9,11 +9,11 @@ import Modal from "../UI/Modal/Modal";
 const FixingBuilder = () => {
   const prices = {
    
-    zoloto2: 90,
-    silver2: 60,
-    almaz1: 180,
-    rubin1: 130,
-    amber1: 140,
+    zoloto2: 3,
+    silver2: 4,
+    almaz1: 5,
+    rubin1: 2,
+    amber1: 6,
 
   };
   const [ingredients, setIngredients] = useState({});
