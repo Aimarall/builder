@@ -14,7 +14,7 @@ const FixingIngredient = ({ type, fixed }) => {
     zoloto2: { backgroundImage: `url(${zoloto2Background})`, width: "55px", height: "55px" },
     silver2: { backgroundImage: `url(${silver2Background})`, width: "64px", height: "64px" },
     almaz1: { backgroundImage: `url(${almaz1Background})`, width: "50px", height: "50px" },
-    rubin1: { backgroundImage: `url(${rubin1Background})`, width: "50px", height: "50px" },
+    rubin1: { backgroundImage: `url(${rubin1Background})`, width: "60px", height: "60px" },
     amber1: { backgroundImage: `url(${amber1Background})`, width: "50px", height: "50px" },
   };
   function getPosition(ingredientWidth) {
