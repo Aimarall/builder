@@ -8,12 +8,11 @@ import Modal from "../UI/Modal/Modal";
 
 const FixingBuilder = () => {
   const prices = {
-   
-    zoloto2: 3,
-    silver2: 4,
-    almaz1: 5,
+    almaz1: 4,
+    amber1: 4,
     rubin1: 2,
-    amber1: 6,
+    silver2: 2,
+    zoloto2: 6,
 
   };
   const [ingredients, setIngredients] = useState({});
@@ -67,13 +66,13 @@ const FixingBuilder = () => {
         addIngredient={addIngredient}
         removeIngredient={removeIngredient}
         startOrdering={startOrdering}
-        />
+      />
       <Modal
         show={ordering}
         cancel={stopOrdering}>
-          almaz
-          zoloto
-          serebro
+        almaz
+        zoloto
+        serebro
         </Modal>
     </div>
   );
