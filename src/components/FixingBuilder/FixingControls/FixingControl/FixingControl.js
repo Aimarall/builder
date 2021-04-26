@@ -35,10 +35,9 @@ const FixingControl = ({ type, add, remove }) => {
     almaz1:"almaz1",
     amber1:" amber1",
     rubin1:"rubin1",
-    silver2:"silver2",
+    silver1:"silver2",
     zoloto2:"zoloto2",
-   
-
+    rauchtopaz1:"rauchtopaz1",
   }
   return (
     <div className={classes.FixingControl}>

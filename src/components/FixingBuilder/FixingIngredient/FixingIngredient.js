@@ -1,21 +1,24 @@
-
 import React from "react";
 import classes from "./FixingIngredient.module.css";
 
 
 import zoloto2Background from "../../../images/zoloto2.svg";
-import silver2Background from "../../../images/silver2.svg";
+import silver1Background from "../../../images/silver1.svg";
 import almaz1Background from "../../../images/almaz1.svg";
 import rubin1Background from "../../../images/rubin1.svg";
 import amber1Background from "../../../images/amber1.svg";
+import rauchtopaz1Background  from "../../../images/rauchtopaz1.svg";
+
 
 const FixingIngredient = ({ type, fixed }) => {
   const types = { 
     zoloto2: { backgroundImage: `url(${zoloto2Background})`, width: "55px", height: "55px" },
-    silver2: { backgroundImage: `url(${silver2Background})`, width: "64px", height: "64px" },
-    almaz1: { backgroundImage: `url(${almaz1Background})`, width: "50px", height: "50px" },
-    rubin1: { backgroundImage: `url(${rubin1Background})`, width: "60px", height: "60px" },
+    silver1: { backgroundImage: `url(${silver1Background})`, width: "44px", height: "44px" },
+    almaz1: { backgroundImage: `url(${almaz1Background})`, width: "48px", height: "48px" },
+    rubin1: { backgroundImage: `url(${rubin1Background})`, width: "45px", height: "45px" },
     amber1: { backgroundImage: `url(${amber1Background})`, width: "50px", height: "50px" },
+    rauchtopaz1: { backgroundImage: `url(${rauchtopaz1Background})`, width: "70px", height: "70px" },
+
   };
   function getPosition(ingredientWidth) {
     const fixingDiameter = 360;
