@@ -10,7 +10,7 @@ import rubin1Background from "../../../images/rubin1.svg";
 import amber1Background from "../../../images/amber1.svg";
 
 const FixingIngredient = ({ type, fixed }) => {
-  const types = {
+  const types = { 
     zoloto2: { backgroundImage: `url(${zoloto2Background})`, width: "55px", height: "55px" },
     silver2: { backgroundImage: `url(${silver2Background})`, width: "64px", height: "64px" },
     almaz1: { backgroundImage: `url(${almaz1Background})`, width: "50px", height: "50px" },
