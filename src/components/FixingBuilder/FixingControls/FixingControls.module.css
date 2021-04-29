@@ -1,4 +1,4 @@
-.FixingControls {
+/* .FixingControls {
   flex: 0 0 250px;
   border-radius: 1rem;
   padding: 1rem;
@@ -7,4 +7,13 @@
   text-align: center;
   margin-left: 2rem;
   margin-top: 1rem;
+} */
+
+.FixingControls {
+  flex: 0 0 250px;
+  border-radius: 1rem;
+  padding: 1rem;
+  background-color:  #30d5c8;
+  color: white;
+  text-align: center;
 }
