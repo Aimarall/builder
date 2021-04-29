@@ -1,3 +1,15 @@
+/* .FixingControl {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem 0;
+  font-size: 24px;
+}
+.FixingControl .ingredient div {
+  position: static;
+  margin: 0 .5rem;
+}  */
+
 .FixingControl {
   display: flex;
   justify-content: center;
@@ -8,4 +20,4 @@
 .FixingControl .ingredient div {
   position: static;
   margin: 0 .5rem;
-} 
+}
