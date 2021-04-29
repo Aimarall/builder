@@ -12,8 +12,6 @@ const App = () => {
         <FixingBuilder />
       </Layout>
 
-
-      
     </div>
   );
 }

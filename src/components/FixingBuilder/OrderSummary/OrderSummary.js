@@ -27,12 +27,12 @@ const OrderSummary = ({ ingredients, price }) => {
     silver1: 2,
     zoloto2: 2,
 
-    almaz1: "Almaz",
-    amber1: "Amber",
-    rauchtopaz1: "Rauchtopaz",
-    rubin1: "Rubin",
-    silver1: "Silver",
-    zoloto2: "Zoloto",
+    almaz1: "almaz1",
+    amber1: "amber1",
+    rauchtopaz1: "rauchtopaz1",
+    rubin1: "rubin1",
+    silver1: "silver1",
+    zoloto2: "zoloto2",
   }
   const results = Object.keys(ingredients)
     .map(type => <li>{labels[type]}: {ingredients[type]}</li>);
