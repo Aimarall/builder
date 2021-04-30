@@ -1,46 +1,43 @@
 // import classes from "./CheckoutSummary.module.css";
-// import FixingPrevew from "../../FixingBuilder/FixingPrevew/FixingPrevew";
+// import FixingPreview from "../../FixingBuilder/FixingPreview/FixingPreview";
 // import Button from "../../UI/Button/Button";
+// import CheckoutForm from "./CheckoutForm/CheckoutForm";
 
-// const CheckoutSummary = ({ cancelCallback }) => {
+// const CheckoutSummary = ({ submitCallback, cancelCallback }) => {
 //   return (
 //     <div className={classes.CheckoutSummary}>
 //       <div>
-//         <FixingPrevew ingredients={{
+//         <FixingPreview ingredients={{
 //           almaz1: 3,
 //           amber1: 2,
-//           rauchtopaz: 3,
+//           rauchtopaz1: 3,
 //           rubin1: 2,
 //           silver1: 2,
 //           zoloto2: 2,
 //         }} price={150} />
 //       </div>
-//       <div>
-//         <Button>Checkout</Button>
-//         <Button onClick={cancelCallback}>Cancel</Button>
-//       </div>
+//       <CheckoutForm
+//         submitCallback={submitCallback}
+//         cancelCallback={cancelCallback} />
 //     </div>
 //   );
 // }
 
 // export default CheckoutSummary;
 
+
 import classes from "./CheckoutSummary.module.css";
-import FixingPreview from "../../FixingBuilder/FixingPreview/FixingPreview";
-import Button from "../../UI/Button/Button";
+import PizzaPreview from "../../PizzaBuilder/PizzaPreview/PizzaPreview";
 import CheckoutForm from "./CheckoutForm/CheckoutForm";
 
 const CheckoutSummary = ({ submitCallback, cancelCallback }) => {
   return (
     <div className={classes.CheckoutSummary}>
       <div>
-        <FixingPreview ingredients={{
-          almaz1: 3,
-          amber1: 2,
-          rauchtopaz1: 3,
-          rubin1: 2,
-          silver1: 2,
-          zoloto2: 2,
+        <PizzaPreview ingredients={{
+          tomato: 5, 
+          salami: 10,
+          greenOlive: 50,
         }} price={150} />
       </div>
       <CheckoutForm
@@ -49,5 +46,5 @@ const CheckoutSummary = ({ submitCallback, cancelCallback }) => {
     </div>
   );
 }
-
+ 
 export default CheckoutSummary;
