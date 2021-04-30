@@ -24,7 +24,7 @@ const OrderSummary = ({ ingredients, price }) => {
     almaz1: "Almaz1",
     amber1: "Amber1",
     rauchtopaz1: "Rauchtopaz1",
-    rubin1: "rubin1",
+    rubin1: "Rubin1",
     silver1: "Silver1",
     zoloto2: "Zoloto2",
   }
