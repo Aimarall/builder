@@ -50,8 +50,7 @@ import classes from "./FixingControls.module.css";
 
 const FixingControls = ({
   ingredients,
-  addIngredient,
-  removeIngredient,
+  
   startOrdering
 }) =>
 
@@ -64,8 +63,7 @@ const FixingControls = ({
     
     results.push(<FixingControl
       key={ingredient}
-      add={addIngredient}
-      remove={removeIngredient}
+     
       count={ingredients[ingredient]}
       type={ingredient} />)
   }

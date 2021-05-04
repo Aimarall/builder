@@ -10,14 +10,7 @@ import Button from "../UI/Button/Button";
 import { useSelector } from "react-redux";
 
 const FixingBuilder = ({ history }) => {
-  const prices = {
-    almaz1: 3,
-    amber1: 2,
-    rauchtopaz1: 3,
-    rubin1: 2,
-    silver1: 2,
-    zoloto2: 2,
-  };
+ 
 
   const ingredients = useSelector(state => state.ingredients);
   const price = useSelector(state => state.price);
@@ -38,21 +31,7 @@ const FixingBuilder = ({ history }) => {
   //     });
   // }
 
-  function addIngredient(type) {
-    const newIngredients = { ...ingredients };
-    newIngredients[type]++;
-
-
-  }
-
-  function removeIngredient(type) {
-    if (ingredients[type]) {
-      const newIngredients = { ...ingredients };
-      newIngredients[type]--;
-
-
-    }
-  }
+  
 
   function startOrdering() {
     setOrdering(true);
@@ -85,8 +64,7 @@ const FixingBuilder = ({ history }) => {
         price={price} />
       <FixingControls
         ingredients={ingredients}
-        addIngredient={addIngredient}
-        removeIngredient={removeIngredient}
+     
         startOrdering={startOrdering}
       />
       <Modal
