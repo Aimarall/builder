@@ -2,7 +2,7 @@ import FixingPreview from "./FixingPreview/FixingPreview";
 import FixingControls from "./FixingControls/FixingControls";
 
 import classes from "./FixingBuilder.module.css";
-// import { useEffect, useState } from "react";
+import { useState } from "react";
 import axios from "axios";
 import Modal from "../UI/Modal/Modal";
 import OrderSummary from "./OrderSummary/OrderSummary";
