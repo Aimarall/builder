@@ -11,10 +11,10 @@
 .CheckoutForm div > input {
   font-size: 1.2rem;
   border-radius: 1rem;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(252, 77, 77);
   padding-left: 1rem;
 }
 .CheckoutForm div > input:focus {
   outline: none;
-  border-color: gray;
+  border-color: rgb(212, 65, 65);
 }

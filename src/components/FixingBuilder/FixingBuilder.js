@@ -62,7 +62,7 @@ const FixingBuilder = ({ history }) => {
 
   function finishOrdering() {
     axios
-      .post('https://builder2-97915-default-rtdb.firebaseio.com/default.json', {
+      .post('https://builder2-97915-default-rtdb.firebaseio.com/order.json', {
         ingredients: ingredients,
         price: price,
         address: "1234 Jusaeva str",

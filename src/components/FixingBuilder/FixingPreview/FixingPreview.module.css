@@ -6,24 +6,28 @@
   margin-bottom: 1rem;
 
 }
-.fixing {
+ /* .fixing {
   width: 415px;
   height: 410px;
   margin-right: 2rem;
   margin-bottom: 1rem;
   border-radius: 1rem;
   background-color:  #bfc0b8; 
-  margin-top: 1rem;
-  /* background-color:  #ad4ec5;  */
-
-  /* background-color:  #c6e63b;  */
-
+  margin-top: 1rem; 
+  
+  
   display: flex;
   justify-content: center;
   align-items: center;
-}
+
+
+
+   background-color:  #ad4ec5;  
+   background-color:  #c6e63b;  
+
+}  */
 .ingredients {
-  width: 380px;
+  width: 520px;
   height: 322px;
   position: relative;
 }

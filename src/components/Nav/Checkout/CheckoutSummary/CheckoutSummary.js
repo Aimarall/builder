@@ -35,9 +35,12 @@ const CheckoutSummary = ({ submitCallback, cancelCallback }) => {
     <div className={classes.CheckoutSummary}>
       <div>
         <PizzaPreview ingredients={{
-          tomato: 5, 
-          salami: 10,
-          greenOlive: 50,
+          almaz1: 3,
+          amber1: 2,
+          rauchtopaz1: 3,
+          rubin1: 2,
+          silver1: 2,
+          zoloto2: 2,
         }} price={150} />
       </div>
       <CheckoutForm
@@ -46,5 +49,5 @@ const CheckoutSummary = ({ submitCallback, cancelCallback }) => {
     </div>
   );
 }
- 
+
 export default CheckoutSummary;
