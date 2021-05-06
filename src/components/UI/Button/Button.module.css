@@ -8,6 +8,7 @@
   font-weight: bold;
   font-size: 1.5rem;
   cursor: pointer;
+  box-sizing: grayscale(100%);
 }
 .Button:not(:disabled):hover {
   background-color: rgb(201, 201, 201);

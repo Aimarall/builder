@@ -11,10 +11,11 @@ body {
   background-size: 100%;
   /* filter: brightness(30%); */
   background-color:  hsl(0, 6%, 94%); 
+ 
+ 
+  
 }
-#myimage {
-  filter: brightness(50%);
-}
+
 .Jewelry {
   margin: 1rem;
   text-align: center;
