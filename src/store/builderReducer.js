@@ -1,21 +1,21 @@
 const initialState = {
     ingredients: {
-        almaz1: 5,
-        amber1: 5,
-        rauchtopaz1: 10,
-        rubin1: 2,
-        silver1: 12,
-        zoloto2: 2,
+        diamond: 5,
+        amber: 5,
+        rauchtopaz: 10,
+        ruby: 2,
+        silver: 12,
+        gold: 2,
     },
     price: 100,
 };
 const prices = {
-    almaz1: 3,
-    amber1: 2,
-    rauchtopaz1: 3,
-    rubin1: 2,
-    silver1: 2,
-    zoloto2: 2,
+    diamond: 3,
+    amber: 2,
+    rauchtopaz: 3,
+    ruby: 2,
+    silver: 2,
+    gold: 2,
 };
 
 const builderReducer = (state = initialState, action) => {

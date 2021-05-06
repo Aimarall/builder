@@ -24,28 +24,3 @@ const App = () => {
 export default App;
 
 
-
-
-// import Layout from "./componets/Layout/Layout";
-// import "./App.css"
-// import FixingBuilder from "./componets/FixingBuilder/FixingBuilder";
-// import Checkout from "./components/Checkout/Checkout";
-// import { Redirect, Route, Switch } from "react-router";
-
-// const App = () => {
-//   return (
-//     <div className="App">
-
-//       <Layout>
-//         <h1 className="Jewelry">Gems</h1>
-//         <Switch>
-//           <Route path="/" component={FixingBuilder} exact />
-//           <Route path="/checkout" component={Checkout} />
-//           <Redirect to="/" />
-//         </Switch>
-//       </Layout>
-//     </div>
-//   );
-// }
-
-// export default App;
