@@ -2,8 +2,10 @@
 .FixingControls {
   flex: 0 0 250px;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 1.5rem;
   background-color:  #30d5c8;
   color: white;
   text-align: center;
+  height: 500px;
+ 
 }
