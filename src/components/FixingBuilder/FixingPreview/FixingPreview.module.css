@@ -8,9 +8,11 @@
 }
 
 .ingredients {
-  width: 540px;
-  height: 320px;
+  width: 600px;
+  height: 615px;
   position: relative;
+  margin: -2rem 1rem 1rem 0;
+ 
 }
 .price {
   background-color:  #30d5c8;

@@ -7,11 +7,11 @@ import silverBackground from "../../../images/silver.svg";
 import diamondBackground from "../../../images/diamond.svg";
 import rubyBackground from "../../../images/ruby.svg";
 import amberBackground from "../../../images/amber.svg";
-import rauchtopazBackground  from "../../../images/rauchtopaz.svg";
+import rauchtopazBackground from "../../../images/rauchtopaz.svg";
 
 
 const FixingIngredient = ({ type, fixed }) => {
-  const types = { 
+  const types = {
     gold: { backgroundImage: `url(${goldBackground})`, width: "55px", height: "55px" },
     silver: { backgroundImage: `url(${silverBackground})`, width: "44px", height: "44px" },
     diamond: { backgroundImage: `url(${diamondBackground})`, width: "48px", height: "48px" },
@@ -20,24 +20,23 @@ const FixingIngredient = ({ type, fixed }) => {
     rauchtopaz: { backgroundImage: `url(${rauchtopazBackground})`, width: "70px", height: "70px" },
 
   };
+
   function getPosition(ingredientWidth) {
-    const fixingDiameter = 360;
+    const fixingDiameter = 310;
     const fixingRadius = fixingDiameter / 2;
     const ingredientRadius = parseInt(ingredientWidth) / 2;
 
     const ingredientTop = Math.round(Math.random() * fixingDiameter);
     const ingredientLeft = Math.round(Math.random() * fixingDiameter);
 
-
     const distance = Math.sqrt(
-      Math.pow(ingredientTop - fixingRadius, 2) + Math.pow(ingredientLeft - fixingRadius, 1)
+      Math.pow(ingredientTop - fixingRadius, 2) + Math.pow(ingredientLeft - fixingRadius, 2)
     ) + ingredientRadius;
 
     return distance < fixingRadius
       ? {
         top: ingredientTop - ingredientRadius,
         left: ingredientLeft - ingredientRadius
-
       }
       : getPosition(ingredientWidth);
   }
@@ -57,11 +56,3 @@ const FixingIngredient = ({ type, fixed }) => {
 }
 
 export default React.memo(FixingIngredient);
-
-
-
-
-
-
-
-

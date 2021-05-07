@@ -8,12 +8,11 @@ body {
   margin: 0;
   /* background-color:  hsl(0, 0%, 92%);  */
   /* background-color:  #9c40b3;  */
-  background-size: 100%;
+  background-size: 354px;
   /* filter: brightness(30%); */
-  background-color:  hsl(0, 6%, 94%); 
- 
- 
-  
+  /* background-image: url(./images/fon1.jpg); */
+  /* background-color:  hsl(0, 6%, 94%);  */
+
 }
 
 .Jewelry {
