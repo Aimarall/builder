@@ -8,17 +8,19 @@
   }
   .NavItem a:hover {
     border-color: white;
-    background-color:  #29b8ac;
-
+    border-color: white;
+    background-image: linear-gradient(yellow, red);  
+    
   }
+
   .NavItem a:active,
   .NavItem a.active {
-    border-color: white;
+    border-color: white; 
   }
   
-  @media (max-width: 549px) {
+   @media (max-width: 549px) {
     .NavItem a {
       border-bottom: none;
       border-right: 10px solid transparent;
     }
-  }
+  } 
