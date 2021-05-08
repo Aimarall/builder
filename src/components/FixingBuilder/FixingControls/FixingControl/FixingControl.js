@@ -1,3 +1,4 @@
+
 import classes from "./FixingControl.module.css";
 import Button from "../../../UI/Button/Button";
 import { useDispatch } from "react-redux";
@@ -5,7 +6,7 @@ import { useDispatch } from "react-redux";
 
 const FixingControl = ({ type, count }) => {
   const dispatch = useDispatch();
-  const name = {
+  const names = {
     diamond: "diamond",
     amber: " amber",
     ruby: "ruby",
@@ -14,19 +15,23 @@ const FixingControl = ({ type, count }) => {
     rauchtopaz: "rauchtopaz",
   }
   return (
+
+
+
+
     <div className={classes.FixingControl}>
+      <div className={classes.Example}>
+        <Button className="order" onClick={() => dispatch({ type: "ADD_INGREDIENT", ingredient: type })}>+</Button>
 
-      <Button onClick={() => dispatch({ type: "ADD_INGREDIENT", ingredient: type })}>+</Button>
+        <div className={classes.ingredient}>
+          {names[type]}
+        </div>
 
-      <div className={classes.ingredient}>
-        {name[type]}
+        <Button className="order"  onClick={() => dispatch({ type: "REMOVE_INGREDIENT", ingredient: type })} disabled={!count}>-</Button>
       </div>
-
-      <Button onClick={() => dispatch({ type: "REMOVE_INGREDIENT", ingredient: type })} disabled={!count}>-</Button>
 
     </div>
   );
 }
-
 
 export default FixingControl;
