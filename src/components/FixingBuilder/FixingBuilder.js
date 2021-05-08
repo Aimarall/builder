@@ -1,15 +1,16 @@
+
+import { useState } from "react"
+import classes from "./FixingBuilder.module.css";
 import FixingPreview from "./FixingPreview/FixingPreview";
 import FixingControls from "./FixingControls/FixingControls";
-
-import classes from "./FixingBuilder.module.css";
-import { useState } from "react";
-// import axios from "axios";
 import Modal from "../UI/Modal/Modal";
 import OrderSummary from "./OrderSummary/OrderSummary";
 import Button from "../UI/Button/Button";
+// import axios from "axios";
 import { useSelector } from "react-redux";
 
 const FixingBuilder = ({ history }) => {
+
   const ingredients = useSelector(state => state.ingredients);
   const price = useSelector(state => state.price);
   const [ordering, setOrdering] = useState(false);
@@ -18,7 +19,7 @@ const FixingBuilder = ({ history }) => {
 
   // function loadDefaults() {
   //   axios
-  //     .get('hhttps://builder2-97915-default-rtdb.firebaseio.com/default.json')
+  //     .get('https://builder2-f8ec3-default-rtdb.firebaseio.com/default.json')
   //     .then(response => {
   //       setPrice(response.data.price);
 
@@ -28,6 +29,7 @@ const FixingBuilder = ({ history }) => {
   //       setIngredients(response.data.ingredients);
   //     });
   // }
+
 
   function startOrdering() {
     setOrdering(true);
@@ -50,6 +52,8 @@ const FixingBuilder = ({ history }) => {
         price={price} />
       <FixingControls
         ingredients={ingredients}
+        // addIngredient={addIngredient}
+        // removeIngredient={removeIngredient}
         startOrdering={startOrdering}
       />
       <Modal

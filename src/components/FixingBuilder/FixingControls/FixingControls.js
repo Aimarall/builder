@@ -22,7 +22,7 @@ const FixingControls = ({
     <div className={classes.FixingControls}>
       <strong>Gems</strong>
       {results}
-      <Button disabled={!total} onClick={startOrdering}>Order</Button>
+      <Button disabled={!total} onClick={startOrdering} className="Order">Order</Button>
     </div>
   );
 }

@@ -4,15 +4,15 @@
   font-family: 'Neuton', serif;
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   /* background-color:  hsl(0, 0%, 92%);  */
   /* background-color:  #9c40b3;  */
-  background-size: 354px;
+  background-size: 374px;
   /* filter: brightness(30%); */
-  /* background-image: url(./images/fon1.jpg); */
+  background-image: url(./images/fon1.jpg); 
   /* background-color:  hsl(0, 6%, 94%);  */
-
 }
 
 .Jewelry {
@@ -20,4 +20,6 @@ body {
   text-align: center;
   color:  #30d5c8;
   font-size: 60px;
-}
+  color: rgb(255, 0, 0);
+  text-shadow: 2px 2px 5px rgb(255, 238, 0);
+} 
