@@ -2,7 +2,6 @@ import FixingIngredient from "../FixingIngredient/FixingIngredient";
 import classes from "./FixingPreview.module.css";
 import ingredientsBackground from "../../../images/cheese21.png";
 
-
 const FixingPreview = ({ ingredients, price }) => {
   const result = [];
   for (const ingredient in ingredients) {

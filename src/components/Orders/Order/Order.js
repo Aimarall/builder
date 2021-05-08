@@ -13,3 +13,4 @@ const Order = ({ name, phone, address, ingredients }) => {
 }
 
 export default Order;
+

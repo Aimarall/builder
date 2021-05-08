@@ -12,6 +12,7 @@ const App = () => {
       <Layout>
         <h1 className="Jewelry">Gems</h1>
         <Switch>
+
           <Route path="/" component={FixingBuilder} exact />
           <Route path="/checkout" component={Checkout} />
           <Redirect to="/" />
@@ -22,5 +23,3 @@ const App = () => {
 }
 
 export default App;
-
-

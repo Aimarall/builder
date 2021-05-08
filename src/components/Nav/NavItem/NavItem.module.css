@@ -2,9 +2,10 @@
     display: block;
     color: white;
     text-decoration: none;
-    padding: .6rem 1rem .4rem;
-    border-bottom: 6.6px solid transparent;
+    padding: .6rem 1rem .6rem;
+    border-bottom: 8px dashed transparent;
     transition: all .2s ease-in;
+    margin-bottom: 0;
   }
   .NavItem a:hover {
     border-color: white;
