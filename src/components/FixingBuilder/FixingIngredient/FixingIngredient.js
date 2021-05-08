@@ -1,3 +1,4 @@
+
 import React from "react";
 import classes from "./FixingIngredient.module.css";
 
@@ -22,7 +23,7 @@ const FixingIngredient = ({ type, fixed }) => {
   };
 
   function getPosition(ingredientWidth) {
-    const fixingDiameter = 310;
+    const fixingDiameter = 205;
     const fixingRadius = fixingDiameter / 2;
     const ingredientRadius = parseInt(ingredientWidth) / 2;
 

@@ -9,18 +9,19 @@
 }
 
 .ingredients {
-  width: 600px;
-  height: 615px;
+  width: 500px;
+  height: 515px;
   position: relative;
   margin: -2rem 1rem 1rem 0;
  
 }
 .price {
-  background-color:  #30d5c8;
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));  
   border-radius: 1rem;
   padding: 0 1rem;
-  font-size: 1.5rem;
-  color: white;
+  padding-left: 4rem;
+  font-size: 1.9rem;
+  color: rgb(255, 255, 255);
   font-weight: bold;
 }
 
