@@ -10,7 +10,8 @@
   .NavItem a:hover {
     border-color: white;
     border-color: white;
-    background-image: linear-gradient(yellow, red);  
+    background-image: linear-gradient(to bottom right, rgb(255, 139, 139), rgb(252, 113, 245));
+
     
   }
 
