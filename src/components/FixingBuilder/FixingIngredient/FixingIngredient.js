@@ -5,20 +5,20 @@ import classes from "./FixingIngredient.module.css";
 
 import goldBackground from "../../../images/gold.svg";
 import silverBackground from "../../../images/silver.svg";
-import diamondBackground from "../../../images/diamond.svg";
-import rubyBackground from "../../../images/ruby.svg";
 import amberBackground from "../../../images/amber.svg";
 import rauchtopazBackground from "../../../images/rauchtopaz.svg";
+import diamondBackground from "../../../images/diamond.svg";
+import rubyBackground from "../../../images/ruby.svg";
 
 
 const FixingIngredient = ({ type, fixed }) => {
   const types = {
     gold: { backgroundImage: `url(${goldBackground})`, width: "55px", height: "55px" },
     silver: { backgroundImage: `url(${silverBackground})`, width: "44px", height: "44px" },
-    diamond: { backgroundImage: `url(${diamondBackground})`, width: "48px", height: "48px" },
-    ruby: { backgroundImage: `url(${rubyBackground})`, width: "45px", height: "45px" },
     amber: { backgroundImage: `url(${amberBackground})`, width: "50px", height: "50px" },
     rauchtopaz: { backgroundImage: `url(${rauchtopazBackground})`, width: "70px", height: "70px" },
+    diamond: { backgroundImage: `url(${diamondBackground})`, width: "48px", height: "48px" },
+    ruby: { backgroundImage: `url(${rubyBackground})`, width: "45px", height: "45px" },
 
   };
 

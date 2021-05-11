@@ -9,7 +9,7 @@
 
   font-size: 2rem;
   color: white;
-  background-image: linear-gradient(to bottom right, red, yellow);
+  background-image: linear-gradient(to bottom right, rgb(255, 146, 146), rgb(245, 161, 241));
   box-shadow: 0 0 10px rgba(0, 0, 0, .5);
 }
 
