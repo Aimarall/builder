@@ -16,7 +16,7 @@
  
 }
 .price {
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));  
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(88, 0, 59));  
   border-radius: 1rem;
   padding: 0 1rem;
   padding-left: 4rem;
