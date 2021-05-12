@@ -57,3 +57,6 @@ const FixingIngredient = ({ type, fixed }) => {
 }
 
 export default React.memo(FixingIngredient);
+
+
+
