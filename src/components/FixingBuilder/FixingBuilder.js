@@ -92,7 +92,7 @@ import classes from "./FixingBuilder.module.css";
 import { useEffect, useState } from "react";
 import Modal from "../UI/Modal/Modal";
 import OrderSummary from "./OrderSummary/OrderSummary";
-import Button from "../UI/Button/Button";
+// import Button from "../UI/Button/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { load } from "../../store/actions/builder";
 
@@ -112,11 +112,11 @@ const FixingBuilder = ({ history }) => {
     setOrdering(false);
   }
 
-  function finishOrdering() {
-    setOrdering(false);
-    // loadDefaults();
-    history.push('/checkout');
-  }
+  // function finishOrdering() {
+  //   setOrdering(false);
+  //   // loadDefaults();
+  //   history.push('/checkout');
+  // }
 
   return (
     <div className={classes.FixingBuilder}>
