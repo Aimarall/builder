@@ -3,6 +3,7 @@ import Layout from "./components/Layout/Layout";
 import FixingBuilder from "./components/FixingBuilder/FixingBuilder";
 import "./App.css";
 import { Redirect, Route, Switch } from "react-router";
+import Orders from "./components/Orders/Orders";
 
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Switch>
           <Route path="/" component={FixingBuilder} exact />
           <Route path="/checkout" component={Checkout} />
+          <Route path="/orders" component={Orders} />
           <Redirect to="/" />
         </Switch>
       </Layout>

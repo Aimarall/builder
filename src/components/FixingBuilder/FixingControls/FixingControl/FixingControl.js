@@ -14,6 +14,8 @@ const FixingControl = ({ type, count }) => {
     ruby: "ruby",
   }
 
+
+
   return (
     <div className={classes.FixingControl}>
       <div className={classes.Example}>

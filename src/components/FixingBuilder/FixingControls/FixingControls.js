@@ -13,9 +13,9 @@ const FixingControls = ({
     total += ingredients[ingredient];
     // Render fixiing control for this ingredient
     results.push(<FixingControl
-        key={ingredient}
-        count={ingredients[ingredient]}
-        type={ingredient} />)
+      key={ingredient}
+      count={ingredients[ingredient]}
+      type={ingredient} />)
   }
 
   return (
