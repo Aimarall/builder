@@ -1,89 +1,4 @@
 
-// import { useState } from "react"
-// import classes from "./FixingBuilder.module.css";
-// import FixingPreview from "./FixingPreview/FixingPreview";
-// import FixingControls from "./FixingControls/FixingControls";
-// import Modal from "../UI/Modal/Modal";
-// import OrderSummary from "./OrderSummary/OrderSummary";
-// // import Button from "../UI/Button/Button";
-// // import axios from "axios";
-// import { useSelector } from "react-redux";
-
-// const FixingBuilder = ({ history }) => {
-
-//   const ingredients = useSelector(state => state.builder.ingredients);
-//   const price = useSelector(state => state.builder.price);
-//   const [ordering, setOrdering] = useState(false);
-
-//   // useEffect(loadDefaults, []);
-
-//   // function loadDefaults() {
-//   //   axios
-//   //     .get('https://builder2-f8ec3-default-rtdb.firebaseio.com/default.json')
-//   //     .then(response => {
-//   //       setPrice(response.data.price);
-
-//   //       // For arrays
-//   //       // setIngredients(Object.values(response.data.ingredients));
-//   //       // For objects
-//   //       setIngredients(response.data.ingredients);
-//   //     });
-//   // }
-
-
-//   function startOrdering() {
-//     setOrdering(true);
-//   }
-
-//   function stopOrdering() {
-//     setOrdering(false);
-//   }
-
-//   // function finishOrdering() {
-//   //   setOrdering(false);
-//   //   // loadDefaults();
-//   //   history.push('/checkout');
-//   // }
-
-//   return (
-//     <div className={classes.FixingBuilder}>
-//       <FixingPreview
-//         ingredients={ingredients}
-//         price={price} />
-//       <FixingControls
-//         ingredients={ingredients}
-//         // addIngredient={addIngredient}
-//         // removeIngredient={removeIngredient}
-//         startOrdering={startOrdering}
-//       />
-//       <Modal
-//         show={ordering}
-//         cancel={stopOrdering}>
-//         <OrderSummary
-//           ingredients={ingredients}
-//           price={price}
-//         />
-//         {/* <Button onClick={finishOrdering} green>Checkout</Button>
-//         <Button onClick={stopOrdering}>Cancel</Button> */}
-//       </Modal>
-//     </div>
-//   );
-// }
-
-// export default FixingBuilder;
-
-
-
-
-
-
-
-
-
-
-
-
-
 import FixingPreview from "./FixingPreview/FixingPreview";
 import FixingControls from "./FixingControls/FixingControls";
 import withAxios from "../withAxios";
@@ -92,7 +7,7 @@ import classes from "./FixingBuilder.module.css";
 import { useEffect, useState } from "react";
 import Modal from "../UI/Modal/Modal";
 import OrderSummary from "./OrderSummary/OrderSummary";
-// import Button from "../UI/Button/Button";
+import Button from "../UI/Button/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { load } from "../../store/actions/builder";
 
@@ -112,11 +27,11 @@ const FixingBuilder = ({ history }) => {
     setOrdering(false);
   }
 
-  // function finishOrdering() {
-  //   setOrdering(false);
-  //   // loadDefaults();
-  //   history.push('/checkout');
-  // }
+  function finishOrdering() {
+    setOrdering(false);
+    // loadDefaults();
+    history.push('/checkout');
+  }
 
   return (
     <div className={classes.FixingBuilder}>
@@ -134,8 +49,8 @@ const FixingBuilder = ({ history }) => {
             ingredients={ingredients}
             price={price}
             />
-          {/* <Button onClick={finishOrdering} green="green">Checkout</Button>
-          <Button onClick={stopOrdering}>Cancel</Button> */}
+          <Button onClick={finishOrdering} green="green">Checkout</Button>
+          <Button onClick={stopOrdering}>Cancel</Button>
         </Modal>
     </div>
   );
