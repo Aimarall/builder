@@ -8,7 +8,7 @@
   margin-top: 3rem;
   margin-right: 10rem;
   /* background-image: radial-gradient(circle, red, yellow, green); */
-  background-image: linear-gradient(to bottom right, rgb(255, 146, 146), rgb(245, 161, 241));
+  background-image: linear-gradient(to bottom right, rgb(255, 50, 169), rgb(255, 162, 162));
   text-align: center;
   color: rgb(255, 255, 255);
 }

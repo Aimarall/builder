@@ -15,7 +15,6 @@ const FixingControl = ({ type, count }) => {
   }
 
 
-
   return (
     <div className={classes.FixingControl}>
       <div className={classes.Example}>
@@ -32,6 +31,7 @@ const FixingControl = ({ type, count }) => {
 }
 
 export default FixingControl;
+
 
 
 

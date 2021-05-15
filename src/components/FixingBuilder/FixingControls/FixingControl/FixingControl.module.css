@@ -20,9 +20,9 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
- 
 } 
 .order {
   height: 40px;
   width: 60px;
+  color: gray;
 }

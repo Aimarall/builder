@@ -14,11 +14,14 @@
 
     
   }
-
   .NavItem a:active,
   .NavItem a.active {
     border-color: white; 
   }
+ 
+  
+
+
   
    @media (max-width: 549px) {
     .NavItem a {

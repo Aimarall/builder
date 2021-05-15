@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+.Order {
+  list-style: none;
+  font-weight: bold;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+}
