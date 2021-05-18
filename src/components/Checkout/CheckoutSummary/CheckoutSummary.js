@@ -7,7 +7,7 @@ const CheckoutSummary = ({ submitCallback, cancelCallback }) => {
     <div className={classes.CheckoutSummary}>
       <div>
         <FixingPreview ingredients={{
-          diamond: 3,
+          diamond: 2,
           amber: 2,
           rauchtopaz: 3,
           ruby: 2,

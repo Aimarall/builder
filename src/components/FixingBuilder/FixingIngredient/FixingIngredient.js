@@ -1,7 +1,5 @@
-
 import React from "react";
 import classes from "./FixingIngredient.module.css";
-
 
 import goldBackground from "../../../images/gold.svg";
 import silverBackground from "../../../images/silver.svg";
