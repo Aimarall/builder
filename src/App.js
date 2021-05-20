@@ -11,7 +11,7 @@ const App = () => {
     <div className="App">
 
       <Layout>
-        <h1 className="Jewelry">Gems</h1>
+        <h1 className="tekstura-sanimatsue Jewelry">Gems</h1>
         <Switch>
           <Route path="/" component={FixingBuilder} exact />
           <Route path="/checkout" component={Checkout} />
