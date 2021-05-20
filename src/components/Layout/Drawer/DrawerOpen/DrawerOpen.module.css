@@ -8,7 +8,7 @@
   cursor: pointer;
 }
 .DrawerOpen > div {
-  height: 2.5px;
+  height: 2px;
   width: 2rem;
   background-color: white;
 }

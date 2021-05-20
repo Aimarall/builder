@@ -191,6 +191,7 @@
 .green {
   color: white;
   background-color: rgb(66, 221, 60);
+  border-color: rgb(49, 172, 0);
 }
 .green:not(:disabled):hover {
   background-color: rgb(49, 172, 0);
@@ -199,6 +200,7 @@
 .red {
   color: white;
   background-color: rgb(253, 60, 60);
+  border-color: rgb(226, 28, 28);
 }
 .red:not(:disabled):hover {
   background-color: rgb(226, 28, 28);
