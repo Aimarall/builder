@@ -8,8 +8,8 @@ const Order = ({ name, phone, address, ingredients, price }) => {
       <li>Phone: {phone}</li>
       <li>Address: {address}</li>
       <li>Ingredients: {output}</li>
-      <strong>Price: {price}</strong>
-      {/* <li>Price: {price}</li>    */}
+      <strong>Price: {price} $</strong>
+    
        </ul>
   );
 }

@@ -20,9 +20,9 @@ const FixingControl = ({ type, count }) => {
       <div className={classes.Example}>
         <Button className="order" onClick={() => dispatch({ type: "ADD_INGREDIENT", ingredient: type })}>+</Button>
 
-        <div className={classes.ingredient}>
-          {names[type]}
-        </div>
+<div className={classes.ingredient}>
+  {names[type]}
+</div>
 
         <Button className="order" onClick={() => dispatch({ type: "REMOVE_INGREDIENT", ingredient: type })} disabled={!count}>-</Button>
       </div>
@@ -34,6 +34,44 @@ export default FixingControl;
 
 
 
+// import classes from "../FixingControls/FixingControl.module.css";
+// import Button from "../../UI/Button/Button";
+// import soundRemove from "../../../audio/plant-sound.mp3"
+// import soundAdd from "../../../audio/plant-sound-plus.mp3"
 
 
+// const FixingControl = ({ type, addPot, removePot, count }) => {
+//   function removeSound() {
+//     let audio = new Audio();
+//     audio.preload = 'auto';
+//     audio.src = soundRemove;
+//     audio.play();
+//   }
+//   function addSound() {
+//     let audio = new Audio();
+//     audio.preload = 'auto';
+//     audio.src = soundAdd;
+//     audio.play();
+//   }
+//   return (
+//     <div className={classes.FixingControl}>
+//       <Button
+//         className={classes.Button}
+//         onClick={() => { addPot(type); addSound() }}>+</Button>
 
+
+//       <div className={classes.ingredient}>
+//         {names[type]}
+//       </div>
+
+//       {/* <FixingControl type={type} /> */}
+
+
+//       <Button
+//         className={classes.Button}
+//         onClick={() => { removePot(type); removeSound() }} disabled={!count}>-</Button>
+//     </div>);
+// }
+
+
+// export default FixingControl;
