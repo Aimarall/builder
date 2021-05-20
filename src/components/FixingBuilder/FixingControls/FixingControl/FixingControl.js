@@ -4,15 +4,15 @@ import { useDispatch } from "react-redux";
 
 
 const FixingControl = ({ type, count }) => {
-  const dispatch = useDispatch();
-  const names = {
-    amber: " amber",
-    silver: "silver",
-    gold: "gold",
-    rauchtopaz: "rauchtopaz",
-    diamond: "diamond",
-    ruby: "ruby",
-  }
+const dispatch = useDispatch();
+const names = {
+  amber: " amber",
+  silver: "silver",
+  gold: "gold",
+  rauchtopaz: "rauchtopaz",
+  diamond: "diamond",
+  ruby: "ruby",
+}
 
 
   return (
@@ -32,3 +32,51 @@ const FixingControl = ({ type, count }) => {
 
 export default FixingControl;
 
+
+
+
+
+// import classes from "./FixingControl.module.css";
+// import Button from "../../../UI/Button/Button";
+// import soundRemove from "../../../../audio/plant-sound.mp3";
+// import soundAdd from "../../../../audio/plant-sound-plus.mp3";
+
+
+// const FixingControl = ({ type, addPot, removePot, count }) => {
+//   const names = {
+//     amber: " amber",
+//     silver: "silver",
+//     gold: "gold",
+//     rauchtopaz: "rauchtopaz",
+//     diamond: "diamond",
+//     ruby: "ruby",
+//   }
+
+
+//   function removeSound() {
+//     let audio = new Audio();
+//     audio.preload = 'auto';
+//     audio.src = soundRemove;
+//     audio.play();
+//   }
+//   function addSound() {
+//     let audio = new Audio();
+//     audio.preload = 'auto';
+
+//     audio.src = soundAdd;
+//     audio.play();
+//   }
+//   return (
+//     <div className={classes.FixingControl}>
+//       <Button
+//         className={classes.Button}
+//         onClick={() => { addPot(type); addSound() }}>+</Button>
+//       {names[type]}
+//       <Button
+//         className={classes.Button}
+//         onClick={() => { removePot(type); removeSound() }} disabled={!count}>-</Button>
+//     </div>);
+// }
+
+
+// export default FixingControl;

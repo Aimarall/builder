@@ -13,7 +13,7 @@ const CheckoutSummary = ({ submitCallback, cancelCallback }) => {
           ruby: 2,
           silver: 2,
           gold: 2,
-        }} price={100} />
+        }} price={13} />
       </div>
       <CheckoutForm
         submitCallback={submitCallback}

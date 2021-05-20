@@ -1,0 +1,7 @@
+.OrderSummary {
+  background: linear-gradient(to bottom, #fffefe 0%, #6e6e6e 100%);
+  color: rgb(0, 0, 0);
+}
+li {
+  list-style-type: none;
+}
