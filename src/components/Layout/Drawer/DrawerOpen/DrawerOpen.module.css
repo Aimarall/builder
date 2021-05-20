@@ -8,14 +8,16 @@
   cursor: pointer;
 }
 .DrawerOpen > div {
-  height: 3px;
+  height: 2.5px;
   width: 2rem;
   background-color: white;
+}
+.DrawerOpen:hover {
+  background-color: pink;
 }
 .DrawerOpen > div:not(:last-child) {
   margin-bottom: .5rem;
 }
-
 @media (min-width: 550px) {
   .DrawerOpen {
     display: none;

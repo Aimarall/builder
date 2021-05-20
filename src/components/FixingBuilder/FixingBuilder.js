@@ -50,7 +50,7 @@ const FixingBuilder = ({ history }) => {
           price={price}
         />
         <Button onClick={finishOrdering} green="green">Checkout</Button>
-        <Button onClick={stopOrdering}>Cancel</Button>
+        <Button onClick={stopOrdering} red="red">Cancel</Button>
       </Modal>
     </div>
   );

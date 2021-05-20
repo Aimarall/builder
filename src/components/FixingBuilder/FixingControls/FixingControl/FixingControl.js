@@ -28,6 +28,7 @@ const names = {
       </div>
     </div>
   );
+
 }
 
 export default FixingControl;
