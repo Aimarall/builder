@@ -20,7 +20,10 @@ const FixingControls = ({
 
   return (
     <div className={classes.FixingControls}>
-      <strong>Gems</strong>
+      <div className={classes.strong}>
+         <strong>Gems</strong>
+      </div>
+     
       {results}
       <Button disabled={!total} onClick={startOrdering} className="Order">Order</Button>
     </div>
