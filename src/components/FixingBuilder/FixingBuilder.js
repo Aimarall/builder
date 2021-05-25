@@ -1,4 +1,3 @@
-
 import FixingPreview from "./FixingPreview/FixingPreview";
 import FixingControls from "./FixingControls/FixingControls";
 import withAxios from "../withAxios";
@@ -11,15 +10,23 @@ import Button from "../UI/Button/Button";
 import { useDispatch, useSelector } from "react-redux";
 import { load } from "../../store/actions/builder";
 
+
 const FixingBuilder = ({ history }) => {
   const dispatch = useDispatch();
   const ingredients = useSelector(state => state.builder.ingredients);
+  const isAuthenticated = useSelector(state => state.auth.token !== null);
   const price = useSelector(state => state.builder.price);
   const [ordering, setOrdering] = useState(false);
 
   useEffect(() => dispatch(load()), [dispatch]);
 
   function startOrdering() {
+    if (isAuthenticated) {
+      setOrdering(true);
+    }
+    else {
+      history.push("./auth");
+    }
     setOrdering(true);
   }
 
