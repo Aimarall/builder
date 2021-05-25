@@ -4,13 +4,10 @@
   margin-left: 10rem;
 }
 
-
- .FixingIngredient {
+.FixingIngredient {
    animation: pulsing 4s infinite;   
  }
 
- 
- 
  @-webkit-keyframes pulsing {
    0% {
      -webkit-transform: scale(0.8, 0.8);
