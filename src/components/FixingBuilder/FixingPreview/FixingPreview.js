@@ -13,20 +13,15 @@ const FixingPreview = ({ ingredients, price }) => {
 
   return (
     <div className={classes.FixingPreview}>
-
       <div className={classes.fixing}>
-
-
         <div
           className={classes.ingredients}
           style={{ backgroundImage: `url(${ingredientsBackground})` }}>
+
           {result}
 
           <div className={classes.blesk} style={{ backgroundImage: `url(${bleskBackground})` }}></div>
-
         </div>
-
-
       </div>
       <div className={classes.price}>$ {price.toFixed(1)}</div>
     </div>
