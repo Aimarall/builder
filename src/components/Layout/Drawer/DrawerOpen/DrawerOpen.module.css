@@ -1,7 +1,7 @@
 .DrawerOpen {
   height: 3rem;
   padding: .5rem;
-  margin: .5rem;
+ margin-top: 4px;
   display: flex;
   flex-flow: column;
   justify-content: center;
