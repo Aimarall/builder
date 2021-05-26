@@ -1,4 +1,4 @@
-/* .FixingPreview {
+.FixingPreview {
   flex: 0 0 400px;
   display: flex;
   flex-wrap: wrap;
@@ -24,62 +24,17 @@
   color: rgb(255, 255, 255);
   font-weight: bold;
 }
-
-@media (max-width: 550px) {
-  .FixingPreview {
-    margin-left: 6.9rem;
-  }
-} */
-
-
-
-
-
-
-
-
-
-
-
-
-
-.FixingPreview {
-  flex: 0 0 400px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-right: 7.5rem;
-  padding: 1rem;
-  margin-top: 23.1rem;
- 
-}
-
-.ingredients {
-  width: 500px;
-  height: 500px;
-  position: relative;
-  margin: -2.4rem 1rem 1rem 0;
-}
-.price {
-  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(88, 0, 59));  
-  border-radius: 1rem;
-  padding: 0 1rem;
-  padding-left: 4rem;
-  font-size: 1.9rem;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-}
-
 .blesk {
-  justify-content: center;
-  display: flex;
+  justify-content: center;   
   align-items: center;
-  height: 400px;
-  width: 400px;
-  margin-top: -400px;
-  margin-left: -70px;
- }
-
+  display: flex;
+  height: 300px;
+  width: 300px;
+  background-size: 450px;
+  margin-left: 40px;
+  margin-top: 160px;
+  position: absolute;
+}
 
 @media (max-width: 550px) {
   .FixingPreview {
