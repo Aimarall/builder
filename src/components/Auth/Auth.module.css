@@ -7,10 +7,10 @@
 
 }
 .Auth input {
-  width: 15rem;
+  width: 17rem;
   height: 2.5rem;
   margin-bottom: 1rem;
-  border-radius: 3rem;
+  border-radius: 10px;
   border: 2px solid #ec47ad;
   font-size: 1.3rem;
   outline: none;
