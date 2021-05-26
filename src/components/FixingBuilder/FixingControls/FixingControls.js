@@ -25,8 +25,10 @@ const FixingControls = ({
       </div>
 
       {results}
-
-      <Button disabled={!total} onClick={startOrdering} >Order</Button>
+      
+      <div className={classes.ControlButton} >
+        <Button disabled={!total} onClick={startOrdering} >Order</Button>
+      </div>
     </div>
   );
 }
