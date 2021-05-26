@@ -1,7 +1,7 @@
 import FixingIngredient from "../FixingIngredient/FixingIngredient";
 import classes from "./FixingPreview.module.css";
 import ingredientsBackground from "../../../images/box.png";
-// import bleskBackground from "../../../images/blesk2.gif";
+import bleskBackground from "../../../images/blesk.gif";
 
 const FixingPreview = ({ ingredients, price }) => {
   const result = [];
@@ -13,12 +13,20 @@ const FixingPreview = ({ ingredients, price }) => {
 
   return (
     <div className={classes.FixingPreview}>
+
       <div className={classes.fixing}>
+
+
         <div
           className={classes.ingredients}
           style={{ backgroundImage: `url(${ingredientsBackground})` }}>
           {result}
+
+          <div className={classes.blesk} style={{ backgroundImage: `url(${bleskBackground})` }}></div>
+
         </div>
+
+
       </div>
       <div className={classes.price}>$ {price.toFixed(1)}</div>
     </div>
