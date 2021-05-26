@@ -19,7 +19,9 @@
   }
   .NavItem a:active,
   .NavItem a.active {
-    border-color: white; 
+    color: rgb(134, 9, 124);
+    margin-top: -7px;
+    border-color: rgb(134, 9, 124); 
   }
  
   
