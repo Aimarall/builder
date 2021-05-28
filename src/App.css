@@ -12,6 +12,8 @@ body {
   /* filter: brightness(30%); */
   /* opacity: 0.5; */
   background-image: url(./images/fon18.gif);
+
+  overflow-x:hidden
 }
   
 
