@@ -3,4 +3,5 @@
   background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255, 142, 185));  box-shadow: 0 0 10px rgba(0, 0, 0, .5);
   color: rgb(125, 0, 141);
   padding: 1rem;
+  margin: 1.5rem;
 }
