@@ -11,12 +11,12 @@ import rubyBackground from "../../../images/ruby.svg";
 
 const FixingIngredient = ({ type, fixed }) => {
   const types = {
-gold: { backgroundImage: `url(${goldBackground})`, width: "55px", height: "55px" },
-silver: { backgroundImage: `url(${silverBackground})`, width: "44px", height: "44px" },
-amber: { backgroundImage: `url(${amberBackground})`, width: "50px", height: "50px" },
-rauchtopaz: { backgroundImage: `url(${rauchtopazBackground})`, width: "70px", height: "70px" },
-diamond: { backgroundImage: `url(${diamondBackground})`, width: "48px", height: "48px" },
-ruby: { backgroundImage: `url(${rubyBackground})`, width: "45px", height: "45px" },
+    gold: { backgroundImage: `url(${goldBackground})`, width: "55px", height: "55px" },
+    silver: { backgroundImage: `url(${silverBackground})`, width: "44px", height: "44px" },
+    amber: { backgroundImage: `url(${amberBackground})`, width: "50px", height: "50px" },
+    rauchtopaz: { backgroundImage: `url(${rauchtopazBackground})`, width: "70px", height: "70px" },
+    diamond: { backgroundImage: `url(${diamondBackground})`, width: "48px", height: "48px" },
+    ruby: { backgroundImage: `url(${rubyBackground})`, width: "45px", height: "45px" },
 
   };
 
